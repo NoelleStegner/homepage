@@ -1,0 +1,181 @@
+*{
+  font-family: Cabin;
+
+
+}
+
+
+.container{
+  max-width: 1140px;
+  position: relative;
+  right: 0em;
+  left: 0em;
+  margin: 32px;
+  border: none;
+
+}
+.page-header{
+  max-width: 100%;
+  float:left;
+}
+header img{
+
+  max-width: 80%;
+}
+
+h1{
+text-align: left;
+}
+h2{
+text-align: left;
+  font-size: 1.25em;
+}
+.menu-button{
+  text-align: right;
+  margin-top: 3em;
+}
+nav{
+
+    width:20%;
+    float: right;
+
+}
+
+.menu-nav{
+
+  position: absolute;
+
+
+}
+.main-menu form{
+    padding:5px;
+}
+
+.main-menu li{
+  padding:6px;
+  border-bottom: solid 1px #000;
+
+}
+.main-menu ul{
+  border: solid 1px #000;
+  list-style-type: none;
+  background-color: white;
+}
+
+.main-menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+a:link {
+  color: black;
+
+}
+a:hover{
+  color: grey;
+}
+.dropdown li{
+    display:block;
+    margin-left: 0;
+    margin-right: 20em;
+    text-align: center;
+
+          }
+.dropdown ul{
+  text-align: center;
+  border: solid 1px #ccc;
+  padding: 2px;
+  background-color: #fff;
+  width: 120px;
+  position: absolute;
+  display: none;
+
+
+}
+.dropdown:hover ul{
+  display: block;
+  text-align: center;
+
+}
+.fluid-image{
+margin-top: .25em;
+  margin-bottom: .25em;
+  width: 100%;
+
+
+}
+.bullets li{
+text-align: left;
+}
+
+
+
+
+/*Desktop styles*/
+@media(min-width: 768px){
+header{
+    width:40%;
+      }
+
+nav{
+    width:60%;
+    text-align: right;
+    margin-top: 1em;
+    border: none;
+      }
+
+.menu-button{
+          display: none;
+      }
+
+.main-menu ul{
+      position: static;
+      width:auto;
+      float:left;
+      border: none;
+      margin-top: -.02em;
+  }
+.main-menu li{
+  display: inline-block;
+  border: none;
+
+}
+.menu-nav{
+  position: absolute;
+  width:auto;
+  border: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2em;
+  margin-left: 6em;
+  float: right;
+}
+.search{
+  float:right;
+
+}
+
+
+.dropdown li{
+
+    display:block;
+    margin-left: 0;
+          }
+.dropdown ul{
+  text-align: center;
+  border: solid 1px #ccc;
+  padding: 6px;
+  background-color: #fff;
+  width: 120px;
+  position: absolute;
+  display: none;
+
+}
+.dropdown:hover ul{
+  display: block;
+  text-align: center;
+
+}
+}

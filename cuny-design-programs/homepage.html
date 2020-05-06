@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment 2 </title>
+    <script type="text/javascript" src="homepage.js"></script>
+    <link rel="stylesheet" href="homepage.css">
+    <script src="showMenu.js"></script>
+  </head>
+<body>
+
+    <div class="container">
+
+      <header class="page-header">
+<h1><img src="logo.png" alt="Cuny Design Logo"></h1>
+
+</header>
+<nav class="main-menu">
+
+              <div class="menu-button"><img src="menu.svg" width="48" alt="hamburger icon" onclick="showMenu();"></div>
+            <div class="menu-nav" id="menu">
+                  <ul>
+                    <li class="dropdown"> <a href="#">Degrees</a>
+                        <ul>
+                          <li><a href="2-year.html">2-Year</a></li>
+                          <li><a href="4-year.html">4-Year</a></li>
+                      </ul>
+                     </li>
+                      <li class="dropdown"> <a href="#">Topics</a>
+                        <ul>
+                          <li><a href="digital-design-topics.html">Digital Design</a></li>
+                          <li><a href="animation-topics.html">Animation</a></li>
+                          <li><a href="industrial-topics.html">Industrial Design</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="https://www.cuny.edu/admissions/undergraduate/apply/">Apply</a></li>
+                  </ul>
+              <form class="search">
+                <input type="search" placeholder="Search">
+                    <button type="submit">Search</button>
+              </form>
+           </div>
+          </nav>
+
+
+
+
+      <main class="page-main">
+<div class="layout">
+  <div class="slideshow">
+    <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+      <img src="back.svg" alt="back">
+    </a>
+    <img src="slide1.jpg" alt="" id="design">
+
+    <a herf="#" class="slide-forward" onclick="slideshowUp(); return false;">
+      <img src="forward.svg" alt="forward">
+    </a>
+</div>
+<div class="two">
+  <a class="link-box" href="animation-topics.html"><span><img src="animation-homepage.jpg"></span></a>
+</div>
+<div class="three">
+  <a class="link-box" href="digital-design-topics.html"><span><img src="design-homepage.jpg"></span></a>
+</div>
+<div class="four">
+  <a class="link-box" href="industrial-topics.html"><span><img src="industrial-homepage.jpg"></span></a>
+</div>
+<div class="map">
+  <iframe src="https://snazzymaps.com/embed/235615" width="100%" height="600px" style="border:none;"></iframe>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AAIzaSyCGo2kw7ylCepcn5bhhBw8bCMSJGjGvjFE&callback=initMap"
+  type="text/javascript"></script>
+</div>
+</div>
+                </main>
+
+                <footer class="page-footer">  CITY UNIVERSITY OF NEW YORK &copy; Copyright 2020
+                </footer>
+
+
+
+
+
+
+            </body>
+          </html>
